@@ -35,5 +35,6 @@ public class Club {
     public void displayInfo() {
         System.out.println("Club info is as follow:");
         System.out.printf("Name: %s\nStadium: %s\nCoach: %s\nCaptain: %s\n\n", getName(), getStadium(), getCoach(), getCaptain());
+        System.out.println("fff");
     }
 }
