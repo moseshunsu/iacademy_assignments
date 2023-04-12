@@ -43,18 +43,18 @@ public class PrimeNumbers {
     }
 
     public static void main (String[] args) {
-//        isPrimeNumber(1);
-//        isPrimeNumber(2);
-//        isPrimeNumber(3);
-//        isPrimeNumber(4);
-//        isPrimeNumber(5);
-//        isPrimeNumber(6);
-//        isPrimeNumber(7);
-//        isPrimeNumber(8);
-//        isPrimeNumber(9);
-//        isPrimeNumber(-7);
-//        isPrimeNumber(-9);
-        primeNumbersLessThan10000();
+        isPrimeNumber(1);
+        isPrimeNumber(2);
+        isPrimeNumber(3);
+        isPrimeNumber(4);
+        isPrimeNumber(5);
+        isPrimeNumber(6);
+        isPrimeNumber(7);
+        isPrimeNumber(8);
+        isPrimeNumber(9);
+        isPrimeNumber(-7);
+        isPrimeNumber(-9);
+//        primeNumbersLessThan10000();
 
     }
 }
