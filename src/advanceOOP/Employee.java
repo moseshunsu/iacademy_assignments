@@ -15,16 +15,18 @@ public class Employee {
         validateBvn(bvn);
         this.firstName = firstName;
         this.lastName = lastName;
-        this.bvn = bvn;
         this.gender = gender;
         this.birthDate = birthDate;
         this.hireDate = hireDate;
         this.weddingDate = weddingDate;
     }
 
-    private boolean validateBvn (String bvn) {
-        System.out.println(ErrorMessages.bvnLengthError);
-        return bvn.length() == 11;
+    private void validateBvn (String bvn) {
+        if (bvn.length() == 11) {
+            this.bvn = bvn;
+        } else {
+            System.out.println(ErrorMessages.bvnLengthError);
+        }
     }
 
     public String getFirstName() {
@@ -49,7 +51,6 @@ public class Employee {
 
     public void setBvn(String bvn) {
         validateBvn(bvn);
-        this.bvn = bvn;
     }
 
     public Gender getGender() {

@@ -8,7 +8,7 @@ public class EmployeeTest {
         hireDate.setMonth(9);
         hireDate.setYear(2023);
         Date weddingDate = new Date(3, 5, 2016);
-        Employee sarah = new Employee("Sarah", "Adelola", "55454544", Gender.FEMALE,
+        Employee sarah = new Employee("Sarah", "Adelola", "554545444444", Gender.FEMALE,
                 birthDate, hireDate,weddingDate);
 
         sarah.displayEmployeeInfo();

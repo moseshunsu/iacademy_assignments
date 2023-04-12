@@ -18,11 +18,11 @@ public class Date {
         if (month == 2 && day >= 30) {
             System.out.println("February cannot not have more than 30 days");
         }
-        if ((month == 4 && day > 30) || (month == 6 && day > 30) || (month == 9 && day > 30) || (month == 11 && day > 30)) {
+        if ((month == 4 && day > 30) || (month == 6 && day > 30) || (month == 9 && day > 30) ||
+                (month == 11 && day > 30)) {
             System.out.printf("month %d does not have more than 30 days", month);
-        }
+        } else this.month = month;
         this.day = day;
-        this.month = month;
         this.year = year;
     }
 
@@ -65,12 +65,10 @@ public class Date {
         return true;
     }
 
-    private boolean validateMonth(int month) {
+    private void validateMonth(int month) {
         if (month < 1 || month > 12) {
             System.out.println("Ensure the day is within the accepted range!!!");
-            return false;
-        }
-        return true;
+        } else this.month = month;
     }
 
     private boolean validateYear(int year) {
