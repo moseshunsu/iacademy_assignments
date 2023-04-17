@@ -1,4 +1,4 @@
-package abstraction;
+package abstraction_polymorphism_interface;
 
 public class PayrollTest {
 
@@ -6,7 +6,7 @@ public class PayrollTest {
         CommissionEmployee ridoh = new CommissionEmployee("RIdoh", "Lawal",
                 "1234567", 500, 0.5);
         System.out.println(ridoh);
-        System.out.println(ridoh.earnings());
+        System.out.println(ridoh.getPaymentAmount());
 
         CommissionEmployee ridohCommission = new BasePlusCommissionEmployee (ridoh.getFirstName(),
                 ridoh.getLastName(), ridoh.getSocialSecurityNumber(), ridoh.getGrossSales(),

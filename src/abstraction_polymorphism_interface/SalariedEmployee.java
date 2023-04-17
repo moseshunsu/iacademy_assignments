@@ -1,4 +1,4 @@
-package abstraction;
+package abstraction_polymorphism_interface;
 
 public class SalariedEmployee extends Employee {
 
@@ -31,8 +31,13 @@ public class SalariedEmployee extends Employee {
                 '}';
     }
 
+//        @Override
+//    public double earnings() {
+//        return getWeeklySalary();
+//    }
+
     @Override
-    public double earnings() {
+    public double getPaymentAmount() {
         return getWeeklySalary();
     }
 }

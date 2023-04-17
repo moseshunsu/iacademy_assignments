@@ -1,4 +1,4 @@
-package abstraction;
+package abstraction_polymorphism_interface;
 
 public class HourlyEmployee extends Employee {
 
@@ -49,9 +49,16 @@ public class HourlyEmployee extends Employee {
                 '}';
     }
 
+//    @Override
+//    public double earnings() {
+//        if( hours <= 40) {
+//            return getWage() * getHours();
+//        }
+//        return (getWage() * 40) + ((getHours() - 40) * getWage() * 1.5);
+//    }
+
     @Override
-    public double earnings() {
-        double wage;
+    public double getPaymentAmount() {
         if( hours <= 40) {
             return getWage() * getHours();
         }

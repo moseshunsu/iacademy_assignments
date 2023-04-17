@@ -1,4 +1,4 @@
-package abstraction;
+package abstraction_polymorphism_interface;
 
 public class CommissionEmployee extends Employee{
     private double grossSales;
@@ -47,8 +47,13 @@ public class CommissionEmployee extends Employee{
                 '}';
     }
 
+//    @Override
+//    public double earnings() {
+//        return getCommissionRate() * getCommissionRate();
+//    }
+
     @Override
-    public double earnings() {
+    public double getPaymentAmount() {
         return getCommissionRate() * getCommissionRate();
     }
 }
