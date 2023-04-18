@@ -18,22 +18,13 @@ public class Main {
         Tetrahedron tetrahedron = new Tetrahedron(8);
         Triangle triangle = new Triangle(9, 12);
 
-        Shape [] shapes = new Shape[6];
-        shapes[0] = circle;
-        shapes[1] = cube;
-        shapes[2] = sphere;
-        shapes[3] = square;
-        shapes[4] = tetrahedron;
-        shapes[5] = triangle;
+        Shape [] shapes = {circle, cube, sphere, square, tetrahedron, triangle};
 
         for (Shape shape: shapes) {
             if (shape instanceof TwoDimensionalShape) {
-                System.out.println("This is a TwoDimensionalShape" + '\n' + shape.toString());
-                System.out.println("Area: " + shape.getArea() + '\n');
+                System.out.println("This is a TwoDimensionalShape" + '\n' + shape + '\n');
             } else {
-                System.out.println("This is a ThreeDimensionalShape" + '\n' + shape.toString());
-                System.out.println("Area: " + shape.getArea());
-                System.out.println("Volume: " + shape.getVolume() + '\n');
+                System.out.println("This is a ThreeDimensionalShape" + '\n' + shape + '\n');
             }
         }
     }

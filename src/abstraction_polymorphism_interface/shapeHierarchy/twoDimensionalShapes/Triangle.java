@@ -31,15 +31,11 @@ public class Triangle extends TwoDimensionalShape{
     }
 
     @Override
-    public double getVolume() {
-        return 0;
-    }
-
-    @Override
     public String toString() {
         return "Triangle{" +
                 "b=" + b +
                 ", h=" + h +
+                ", Area=" + getArea() +
                 '}';
     }
 }

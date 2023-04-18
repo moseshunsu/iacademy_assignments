@@ -21,14 +21,10 @@ public class Circle extends TwoDimensionalShape {
     }
 
     @Override
-    public double getVolume() {
-        return 0;
-    }
-
-    @Override
     public String toString() {
         return "Circle{" +
                 "r=" + r +
+                ", Area=" + getArea() +
                 '}';
     }
 }

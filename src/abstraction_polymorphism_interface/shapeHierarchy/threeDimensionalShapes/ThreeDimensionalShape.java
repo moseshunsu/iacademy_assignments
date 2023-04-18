@@ -1,6 +1,7 @@
 package abstraction_polymorphism_interface.shapeHierarchy.threeDimensionalShapes;
 
 import abstraction_polymorphism_interface.shapeHierarchy.Shape;
+import abstraction_polymorphism_interface.shapeHierarchy.interfaces.GetVolume;
 
-public abstract class ThreeDimensionalShape extends Shape {
+public abstract class ThreeDimensionalShape extends Shape implements GetVolume {
 }

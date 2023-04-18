@@ -29,6 +29,8 @@ public class Sphere extends ThreeDimensionalShape {
     public String toString() {
         return "Sphere{" +
                 "r=" + r +
+                ", Area=" + getArea() +
+                ", Volume" + getVolume() +
                 '}';
     }
 }

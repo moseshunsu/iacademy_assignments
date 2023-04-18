@@ -21,14 +21,10 @@ public class Square extends TwoDimensionalShape {
     }
 
     @Override
-    public double getVolume() {
-        return 0;
-    }
-
-    @Override
     public String toString() {
         return "Square{" +
                 "a=" + a +
+                ", Area=" + getArea() +
                 '}';
     }
 }

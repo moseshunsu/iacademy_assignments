@@ -29,6 +29,8 @@ public class Tetrahedron extends ThreeDimensionalShape{
     public String toString() {
         return "Tetrahedron{" +
                 "a=" + a +
+                ", Area=" + getArea() +
+                ", Volume" + getVolume() +
                 '}';
     }
 }

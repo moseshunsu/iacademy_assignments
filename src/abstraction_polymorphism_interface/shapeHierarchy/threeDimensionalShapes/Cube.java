@@ -29,6 +29,8 @@ public class Cube extends ThreeDimensionalShape {
     public String toString() {
         return "Cube{" +
                 "a=" + a +
+                ", Area=" + getArea() +
+                ", Volume" + getVolume() +
                 '}';
     }
 }
