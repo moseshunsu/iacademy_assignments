@@ -119,6 +119,7 @@ public class Assignment1 {
 //        intSum();
 //        factorial(6);
 //        guessPin();
-        characterAppearanceMethod2("moses", 's');
+        characterAppearanceMethod1("moses");
+//        characterAppearanceMethod2("moses", 's');
     }
 }
