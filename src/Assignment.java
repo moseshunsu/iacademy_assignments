@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class Assignment {
 
     public static void main (String[] args) {
-        double weightInKilograms, heightInMeters, BMI, milesDriven, costPerGallon, avgMiles, parkingFess, tollsPerDay, totalCostOfGasolinePerDay, costOfDrivingPerDay;
+        double weightInKilograms, heightInMeters, BMI, milesDriven, costPerGallon, avgMiles, parkingFess, tollsPerDay,
+                totalCostOfGasolinePerDay, costOfDrivingPerDay;
         Scanner input = new Scanner(System.in);
 
         System.out.println("Kindly enter the following details to check your BMI: ");
