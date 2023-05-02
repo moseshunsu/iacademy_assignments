@@ -3,8 +3,9 @@ package employeeHierarchy;
 public class BasePlusEmployeeCommission extends CommissionEmployee {
     private double baseSalary;
 
-    public BasePlusEmployeeCommission (String firstName, String lastName, String socialSecurityNumber, String bvn,
-                                       double grossSales, double commissionRate, double baseSalary) {
+    public BasePlusEmployeeCommission (String firstName, String lastName, String socialSecurityNumber,
+                                       String bvn, double grossSales, double commissionRate,
+                                       double baseSalary) {
         super(firstName, lastName, socialSecurityNumber, bvn, grossSales, commissionRate);
         this.baseSalary = baseSalary;
     }

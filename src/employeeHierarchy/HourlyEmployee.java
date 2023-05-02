@@ -4,7 +4,8 @@ public class HourlyEmployee extends Employee {
     private double hours;
     private double wage;
 
-    public HourlyEmployee (String firstName, String lastName, String socialSecurityNumber, double hours, double wage) {
+    public HourlyEmployee (String firstName, String lastName, String socialSecurityNumber, double hours,
+                           double wage) {
         super(firstName, lastName, socialSecurityNumber);
         this.hours = setHours(hours);
         this.wage = setWage(wage);
