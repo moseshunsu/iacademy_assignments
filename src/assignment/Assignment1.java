@@ -58,13 +58,17 @@ public class Assignment1 {
         String newStr = str.toLowerCase();
         char[] strArray = newStr.toCharArray();
         int sum = 0;
-        for (int i = 0; i < strArray.length; i++) {
-            if (strArray[i] == c) {
-                sum++;
-            }
+        for (char i: strArray) {
+            if (i == c) sum++;
         }
+//        for (int i = 0; i < strArray.length; i++) {
+//            if (strArray[i] == c) {
+//                sum++;
+//            }
+//        }
         System.out.printf("%c appeared in the string %d time(s).%n", c, sum);
     }
+
     public static void intSum() {
         Scanner scanner = new Scanner(System.in);
         int input;
